@@ -1,6 +1,7 @@
 def insertionSort(array):
   for j in range(1, len(array)):
-    print("a")
+    print("\n")
+    print(j,"iteration")
     i = 0
     while array[j] > array[i]:
       i = i+1
